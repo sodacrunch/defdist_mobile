@@ -1,0 +1,98 @@
+@font-face {
+    font-family: Bebas;
+    src: url('../font/BebasNeue.otf');
+}
+
+#ad_box {
+    margin-top: 10px;
+}
+
+.close {
+    z-index: 1000;
+    margin-top: 10px;
+}
+
+.ui-icon-bitcoin {
+    background-image: url("../img/bitcoin_small.png");
+}
+
+.ui-page {
+    background-image: url('../img/diagmonds.png');
+
+    background-repeat:repeat;
+    color: white;
+    text-shadow:none;
+}
+
+ .ui-body-b, .ui-body-c{
+    background-image: url('../img/dark_wall.png');
+        background-repeat:repeat;
+          color: white;
+    text-shadow:none;              
+                }
+
+.header_text {
+	font-family: Bebas;
+	font-size: 34px;
+    text-align: center;
+    line-height: .9em;
+    margin: 0px;
+    padding: 10px 0px 0px 0px;
+}
+
+.f_link, .f_link:a, .f_link:active {
+    color:white;
+}
+
+.sub_text {
+    font-size: 12px;
+    text-align: center;    
+}
+
+.msg_text {
+    font-size: 10px;
+    text-align: center;    
+}
+
+.footer_link {
+    margin-right:15px;
+}
+
+.sub_text_bold {
+    font-weight: bold;
+}
+
+.sub_text_center {
+    font-size: 10px;
+    text-align: left;
+}
+
+.sub_text_left {
+    font-size: 10px;
+    text-align: left;
+}
+
+.message {
+    font-family: Bebas;
+    font-size: 20px;
+    margin: 0px;
+    padding: 5px 0px 0px 0px;
+}
+
+.video {
+    width: 90%;
+}
+
+.bar {
+    width:95%;
+}
+
+hr {
+    padding: 0px;
+    margin:0px;
+}
+
+.press_logos {
+    padding-top: 10px;
+    width:100%;
+}

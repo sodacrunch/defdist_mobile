@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Defense Distributed</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.css" />
+	<link rel="stylesheet" href="css/style.css" />
+	<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+	<script src="http://code.jquery.com/mobile/1.3.1/jquery.mobile-1.3.1.min.js"></script>
+</head>
+<body>
+
+<div data-role="page" id="about">
+
+   <div data-role="panel" id="left_panel" data-position-fixed="true">
+        <ul data-role="listview" data-theme="a" data-divider-theme="b" data-count-theme="b">
+          <li data-role="list-divider">DEFENSE DISTRIBUTED</li>
+          <li data-icon=""><a href="index.html">HOME</a></li>
+          <li data-icon=""><a href="about.html">ABOUT</a></li>
+          <li data-icon=""><a href="press.html">PRESS</a></li>
+          <li data-icon=""><a href="http://www.defcad.org/">DEFCAD</a></li>
+          <li data-icon=""><a href="http://shop.defdist.org/">SHOP</a></li>
+          <li data-icon=""><a href="http://blog.defdist.org/">BLOG</a></li>
+          <li data-icon=""><a href="newsletter.html">NEWSLETTER</a></li>
+          <li data-icon=""><a href="donate.html">DONATE</a></li>
+           
+        </ul>
+      </div>
+      <!-- /panel -->
+
+      <div data-role="header"  data-tap-toggle="false" data-position="fixed" style="background:black;text-align:center;height:50px;">
+	  <a href="#left_panel" data-icon="bars" style="margin-top:5px;">MENU</a>
+        <div style="margin-left: auto; margin-right: auto;">
+          <a href="index.html"><img src="img/logo.png" style="width:65px;"></a>
+        </div>
+	  <a href="donate.html" data-ajax="false" data-icon="bitcoin" style="margin-top:5px;background:#00b895;">HELP</a>
+      </div>
+
+	<div data-role="content" style="text-align: center;">
+
+	<p class="header_text" id="about_link">
+		DONATE
+	</p>
+	<hr><Br>
+<div class="sub_text_left">
+
+
+	<strong>BITCOIN DONATION</strong><br/>
+	We are happy to accept bitcoin contributions at the address below.<br><br>
+	<strong>1Gb5GNxrVGMT8e9uoJ8CmamrdVz9o8fAEa</strong>
+	<br><br>
+	You may use the form below as well for an easy payment. To install the Bitcoin client or learn more about this payment network, please visit <a href="http://bitcoin.org">http://bitcoin.org</a>
+<br><br>
+
+<b>Enter USD amount</b>
+	<form action="https://bitpay.com/checkout" method="post" >
+  <input type="hidden" name="action" value="checkout" />
+  <input type="hidden" name="posData" value="" />
+  <input type="number" style="color:black;" name="price" min="0" step="0.01" value="" />
+  <input type="hidden" name="data" value="/U7lDso7xIVcu5VgtRlCVmW6690GxbYHl7EdGUZWa/mM8IDTgXsvw6h47a/IcoJLuOH/BE4gSvRsvM+ptnXL+JHpWhpk/BE6L2RR7BUmQUcGNDwBmP3XD2tg10UoMxsNyxOGlEgxeG209tBLQAz6D1Q7KJvNmzCI2GBRhz+CfoeLES5T6CM4lZIFCH44xJ6msiykTvhpV4XsBZ83OKVH0vlYTks/1DKmQPrQXmXOgSbk0RUtGS5/5J8ISjzeMyKR" />
+  <input type="image" src="https://bitpay.com/img/donate-sm.png" border="0" name="submit" alt="BitPay, the easy way to pay with bitcoins." >
+</form>
+<br><br>
+
+		<strong>PayPal ONE TIME DONATION</strong><br/>
+		Please use the secure form below to make a one time gift that is fast and secure. Then click on the "PayPal Donate" button, after which you will go to PayPal's safe and secure web site to enter your personal information.
+	
+	<form style="padding-top:0px; margin-top:-20px;" action="https://www.paypal.com/cgi-bin/webscr" method="post" name="_xclick">
+		<input type="hidden" name="cmd" value="_xclick"/><br/>
+		<input type="hidden" name="business" value="codyrw@aol.com"/><br/>
+		<input type="hidden" name="currency_code" value="USD"/><br/>
+		<input type="hidden" name="item_name" value="ONE TIME DONATION"/>
+
+<select name="amount">
+				<option value="10">$10.00</option>
+				<option selected="selected" value="25">$25.00</option>
+				<option value="50">$50.00</option>
+				<option value="100">$100.00</option>
+				<option value="250">$250.00</option>
+				<option value="500">$500.00</option>
+				<option value="1000">$1000.00</option>
+				<option value="2500">$2500.00</option>
+				<option value="0.00">Other Amount</option>
+			</select>
+	<input style="padding-top:5px;" type="image" alt="Make payments with PayPal - it's fast, free and secure!" name="submit" src="img/paypal.png"/>
+
+</form>
+<br><Br>
+<form  action="https://www.paypal.com/cgi-bin/webscr" method="post">
+
+<strong>PayPal RECURRING GIFT</strong><br/>
+	Please use the secure form below to make a recurring gift that is fast and secure. Select the donation amount, th frequency, the number of payments, and then click on the "PayPal Subscribe" button. Please <a href="http://defdist.org/contact/">contact</a> us to setup a recurring donation of other amounts or on a different schedule.<Br><br>
+
+		<strong>Recurring Amount</strong>
+<select name="amount">
+				<option value="10">$10.00</option>
+				<option selected="selected" value="25">$25.00</option>
+				<option value="50">$50.00</option>
+				<option value="100">$100.00</option>
+				<option value="250">$250.00</option>
+				<option value="500">$500.00</option>
+				<option value="1000">$1000.00</option>
+				<option value="2500">$2500.00</option>
+				<option value="0.00">Other Amount</option>
+			</select>
+	<br>		
+	<strong>Frequency (time between payments)</strong><br/>
+	<select name="a3">
+					<option value="10.00">$10.00</option>
+					<option selected="selected" value="25.00">$25.00</option>
+					<option value="50.00">$50.00</option>
+					<option value="100.00">$100.00</option>
+					<option value="120.00">$120.00</option>
+					<option value="250.00">$250.00</option>
+					<option value="500.00">$500.00</option>
+					<option value="1000.00">$1000.00</option>
+					<option value="2500.00">$2500.00</option>
+				</select>
+
+								<select name="t3">
+					<option selected="selected" value="M">Monthly</option>
+					<option value="Y">Yearly</option>
+					<option value="W">Weekly</option>
+				</select>
+<br>
+<strong>How Long (number of payments)</strong><br/>
+				<select name="srt">
+					<option selected="selected" value="2">2</option>
+					<option value="3">3</option>
+					<option value="4">4</option>
+					<option value="5">5</option>
+					<option value="6">6</option>
+					<option value="7">7</option>
+					<option value="8">8</option>
+					<option value="9">9</option>
+					<option value="10">10</option>
+					<option value="11">11</option>
+					<option value="12">12</option>
+					<option value="18">18</option>
+					<option value="24">24</option>
+					<option value="36">36</option>
+					<option value="48">48</option>
+					<option value="60">60</option>
+				</select>				
+<br>
+				<input type="image" alt="Make payments with PayPal - its fast, free and secure!" name="submit" src="img/paypal.png"/><br><br>
+
+			<input type="hidden" name="cmd" value="_xclick-subscriptions"/><input type="hidden" name="business" value="codyrw@aol.com"/><input type="hidden" name="item_name" value="Recurring Donation to Defense Distributed"/><br/>
+			<input type="hidden" name="no_shipping" value="2"/><input type="hidden" name="return" value="http://www.defensedistributed.com"/><input type="hidden" name="cancel_return" value="http://www.defensedistributed.com"/><input type="hidden" name="no_note" value="1"/><input type="hidden" name="currency_code" value="USD"/><input type="hidden" name="bn" value="PP-SubscriptionsBF"/><input type="hidden" name="src" value="1"/><input type="hidden" name="sra" value="1"/><input type="hidden" name="p3" value="1"/>
+
+</form>
+
+<b>PHYSICAL MAIL</b><br>
+	Defense Distributed<br/>
+	7301 Burnet Rd. STE#102-349<br/>
+	Austin, TX 78757
+
+</div>
+
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed" style="text-align: center;background:black;border-top:1px solid white;" data-tap-toggle="false">
+	<div style="padding:3px 0px;">	
+		<a class="footer_link" href="https://www.facebook.com/DefenseDistributed"><img src="img/facebook.png"></a>
+		<a  class="footer_link" href="https://twitter.com/defdist"><img src="img/twitter.png"></a> 
+		<a  class="footer_link" href="http://www.youtube.com/user/DXLiberty/videos?view=0"><img src="img/youtube.png"></a> 
+		<a href="http://www.kopimi.com/"><img src="img/kopimi.png" style="width:28px;margin-top:-2px;"></a> 
+	</div>
+	
+	</div><!-- /footer -->
+</div><!-- /page -->
+
+</body>
+</html>
